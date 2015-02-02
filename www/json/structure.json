@@ -100,7 +100,7 @@
           "id": 3,
           "title": "aa.or.kr",
           "description": "고등학교 수학 동영상",
-          "url": "https://www.youtube.com/user/maaorkr/feed"
+          "url": "http://gdata.youtube.com/feeds/base/users/maaorkr/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
         }
       ]
     }
