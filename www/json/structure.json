@@ -91,10 +91,16 @@
           "url": "http://feeds.feedburner.com/tedtalks_video"
         },
         {
-          "id": 1,
+          "id": 2,
           "title": "Channel 9",
           "description": "Channel 9 keeps you up to date with the latest news and behind the scenes info from Microsoft that developers love to keep up with.",
           "url": "http://channel9.msdn.com/Feeds/RSS/ipod"
+        }
+        {
+          "id": 3,
+          "title": "aa.or.kr",
+          "description": "고등학교 수학 동영상",
+          "url": "https://www.youtube.com/user/maaorkr/feed"
         }
       ]
     }
