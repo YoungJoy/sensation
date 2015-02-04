@@ -53,8 +53,6 @@
 
 img { max-width: 100%; height:auto; }
 
-
-
 .map img { max-width: inherit!important; }
 
 .right.col { text-align: right; padding:0 10px 0 0; }
