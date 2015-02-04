@@ -47,11 +47,40 @@
         
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         
+
+
+  <!-- 1. 아래 스크립트는 페이지의 <head></head> 영역에 삽입하시기 바랍니다. -->
+<script type="text/javascript" src="https://101.livere.co.kr/js/livere8_lib.js" charset="utf-8"></script>
+
+
+
     </head>
     <body>
 
+
+
+<!-- 2. 아래 코드는 라이브리를 설치하시고자 하는 위치에 삽입하시기 바랍니다. -->
+<div id="livereContainer">
+  <script type="text/javascript">
+    var consumer_seq  = "200";
+    var livere_seq    = "22548";
+    var smartlogin_seq  = "228";
+
+    var title = "__t__";
+    var refer = "aa.or.kr";
+
+    livereReply = new Livere( livere_seq , refer , title );
+    livereLib.start();
+  </script>
+</div>
+    
+    
+        
+    <!--
         <ons-sliding-menu menu-page="menu.html" main-page="home.html" side="left" max-slide-distance="85%" swipable="true" swipe-target-width="100" var="menu">
+
         </ons-sliding-menu>
+        
         
         <!-- Javascripts -->
         <script type="text/javascript" src="vendors/onsen/js/angular/angular.js"></script>    
@@ -90,6 +119,6 @@
         <script type="text/javascript">
         app.initialize();
         </script>
-        
+
     </body>
 </html>
